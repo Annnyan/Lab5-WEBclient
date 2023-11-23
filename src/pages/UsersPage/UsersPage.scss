@@ -1,0 +1,54 @@
+.UsersPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  &__users {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__card {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 5px;
+    width: 300px;
+    background-color: #a679ca;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+}
+
+.card__field {
+  margin: 0;
+}
+
+.card__username {
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+
+.button {
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: #c7b2f0;
+  color: white;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+
+  &--logout {
+    background-color: #7d60b4;
+    width: 100px;
+  }
+}

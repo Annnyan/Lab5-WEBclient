@@ -1,0 +1,56 @@
+.LoginPage {
+  &__header {
+    text-align: center;
+  }
+
+  &__error {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    left: 0;
+    margin-inline: auto;
+    width: fit-content;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #df6868;
+    transition: all .3s;
+  }
+}
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+  padding: 10px;
+  gap: 10px;
+
+  &__button {
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #b19cd8;
+    color: white;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+  }
+}
+
+.input {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  background-color: #a679ca;
+  padding-inline: 10px;
+  outline: none;
+  color: white;
+
+  &::placeholder {
+    color: rgb(197, 196, 196);
+  }
+}
